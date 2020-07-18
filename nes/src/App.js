@@ -13,7 +13,7 @@ class App extends Component {
         // if (!window.joyconJS) {
         //     return;
         // }
-        var audio = new Audio("/click.mp3");
+        var audio = new Audio("./click.mp3");
         if(pressed) {
             audio.play();
         }
