@@ -1,0 +1,3 @@
+include ':app'
+include ':nes'
+rootProject.name = "Custom Procontroller"
